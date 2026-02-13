@@ -1,0 +1,57 @@
+{
+  "name": "uni-chat-room",
+  "version": "1.0.0",
+  "description": "A chat room component for uni-app with emoji support",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./style.css": "./dist/style.css",
+    "./emoji/*": "./static/emoji/*"
+  },
+  "files": [
+    "dist",
+    "static",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "uni-app",
+    "chat",
+    "chatroom",
+    "emoji",
+    "vue3",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2582767744/uni-chat-room.git"
+  },
+  "bugs": {
+    "url": "https://github.com/2582767744/uni-chat-room/issues"
+  },
+  "homepage": "https://github.com/2582767744/uni-chat-room#readme",
+  "author": "2582767744",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "sass": "^1.97.3",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.7.0",
+    "vue": "^3.4.0",
+    "vue-tsc": "^2.0.0"
+  }
+}
