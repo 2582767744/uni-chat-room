@@ -490,6 +490,24 @@ interface EmojiItem {
 
 ---
 
+## Support / 赞助支持
+
+If this project helps you, consider buying me a coffee! ☕
+
+如果这个项目对你有帮助，可以请作者喝杯咖啡！
+
+<p align="center">
+  <img src="docs/images/wechat-pay.jpg" width="200" alt="WeChat Pay / 微信支付">
+  <img src="docs/images/alipay.jpg" width="200" alt="Alipay / 支付宝">
+</p>
+
+## Contact / 联系方式
+
+- Email: 2582767744@qq.com
+- GitHub: [@2582767744](https://github.com/2582767744)
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
